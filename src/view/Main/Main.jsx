@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Main.css"
-import Nav from '../../components/Nav/Nav'
+import Nav from '../../Components/Nav/Nav.jsx'
 import { useMyContext } from '../../Context/MyContext.jsx'
 
 
