@@ -12,7 +12,7 @@ function Home() {
     </div>
 
     <h2 className='user-name'>krushan jagtap</h2>
-   <Link to="/screen" className='text'><button className='btn-login'> <i class="ri-arrow-right-line"></i>Login</button></Link>
+   <Link to="/screen" className='text'><button className='btn-login'> <i className="ri-arrow-right-line"></i>Login</button></Link>
     </div>
   )
 }

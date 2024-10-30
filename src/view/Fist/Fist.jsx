@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Fist.css";
 import { Link } from 'react-router-dom';
-import Home from '../Home/Home';
+
 
 function Fist({ chechscrn }) {
     const handleFullScreen = () => {
