@@ -13,8 +13,10 @@ function Main() {
 
       <Nav />
       <div className='main-files'>
-        <div className='time'>{time.split(" ")[0]}</div>
-        <div className='time'>{dayInfo}</div>
+        <div className="date-time-continer">
+        <div className='time time-font'>{time.split(" ")[0]}</div>
+        <div className='time time-fon'>{dayInfo}</div>
+        </div>
       </div>
     </>
   )
