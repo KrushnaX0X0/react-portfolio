@@ -5,7 +5,7 @@ import 'remixicon/fonts/remixicon.css';
 import Fist from './view/Fist/Fist';
 import Home from './view/Home/Home';
 import Main from './view/Main/Main';
-import { MyContextProvider } from './Context/Mycontext';
+import { MyContextProvider } from './Context/MyContext.jsx';
 function App() {
   const [isFullScrn, setFullScrn] = useState(false);
 

@@ -1,0 +1,22 @@
+.nav-main{
+    height: 10vh;
+    width: 100vw;
+    background-color:rgb(131, 128, 128) ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.time{
+    padding: 5px;
+}
+.icon-pow{
+    padding: 5px;
+    
+}
+.padd{
+    padding: 3px;
+}
+.hover:hover{
+    color:rgb(146, 154, 160);
+    cursor: pointer;    
+}
