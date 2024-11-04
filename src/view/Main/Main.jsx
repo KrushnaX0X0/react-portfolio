@@ -8,7 +8,7 @@ import { FILES_DATA } from '../../config/ShowData.jsx'
 
 
 function Main() {
-  let { time ,dayInfo } = useMyContext()
+  let { time, dayInfo } = useMyContext()
 
 
   return (
@@ -17,18 +17,18 @@ function Main() {
       <Nav />
       <div className='main-files'>
         <div className="date-time-continer">
-        <div className='time time-font'>{time.split(" ")[0]}</div>
-        <div className='time time-fon'>{dayInfo}</div>
+          <div className='time time-font'>{time.split(" ")[0]}</div>
+          <div className='time time-fon'>{dayInfo}</div>
         </div>
-            <div className='file-info'>
-            { FILES_DATA.map((fileInfo)=>{
-           return(<>{
-              fileInfo.type === "file" ? <File fileInfo={fileInfo}/> : fileInfo.type === "folder" ? <Folder fileInfo={fileInfo}/> : null
-           }</>)
-         })}
-            </div>
+        <div className='file-info'>
+          {FILES_DATA.map((fileInfo) => {
+            return (<>{
+              fileInfo.type === "file" ? <File fileInfo={fileInfo} /> : fileInfo.type === "folder" ? <Folder fileInfo={fileInfo} /> : null
+            }</>)
+          })}
+        </div>
       </div>
-      
+
     </>
   )
 }

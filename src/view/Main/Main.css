@@ -9,6 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 50px;
 }
 .time-font{
     font-size: 4em;
@@ -17,9 +18,10 @@
 }
 .file-info{
     height: 100vh;
+    width: 100vw;
     display: flex;
     
     gap: 20px;
-    margin-left: 70px;
+   padding-left: 40px;
     
 }
