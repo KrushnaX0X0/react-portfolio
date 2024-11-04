@@ -9,9 +9,9 @@ function Folder({fileInfo}) {
    
   return (
     <>
-    <div>
+    <div className='folder-i'>
         <img src={folder} alt="" className='folder-img' onClick={()=>{setFolderOpen(true)}}/>
-        <div className="folder-title">{fileInfo.name}</div>
+        <span className="folder-ti">{fileInfo.name}</span>
     </div>
     {isFolderOpen ? <FolderOpener data={fileInfo}/> : null}
 

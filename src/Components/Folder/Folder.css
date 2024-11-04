@@ -1,8 +1,52 @@
-.folder-img{
+/*.folder-img{
     height: 8vh;
+    width: 4vw;
     cursor: pointer;
 
 }
+.folder-i{
+   width: 5vw;
+   display: flex;
+   flex-direction: column;
+   background-color: brown;
+    
+}
 .folder-title{
+    width: 100vw;
     color: aliceblue;
+
+    
+}
+    */
+    .folder-i {
+    width: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center items horizontally */
+     /* Center items vertically */
+    
+    padding: 10px;
+ 
+}
+
+.folder-img {
+    height: 8vh;
+    width: 4vw;
+    cursor: pointer;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.folder-img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.folder-ti {
+    height: 100vh;
+ 
+
+    color: aliceblue;
+    font-size: 1rem; 
+    text-align: center; 
+
 }
