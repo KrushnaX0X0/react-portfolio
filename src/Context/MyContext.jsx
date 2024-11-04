@@ -5,7 +5,8 @@ const Mycontext = createContext()
 const MyContextProvider =({children}) =>{
 
    const [isfileOpen,setFileOpen] = useState(false);
-   
+   const [isFolderOpen, setFolderOpen] = useState(false);
+   const [fileContentOpen,setFileContentOpen] = useState(false);
 
 
 
@@ -54,7 +55,12 @@ const MyContextProvider =({children}) =>{
          <Mycontext.Provider value={{time,
           dayInfo,
            isfileOpen,
-          setFileOpen}}>
+           isFolderOpen,
+           setFolderOpen,
+              setFileOpen,
+              fileContentOpen,
+              setFileContentOpen
+              }}>
              {children}
          </Mycontext.Provider>
      )

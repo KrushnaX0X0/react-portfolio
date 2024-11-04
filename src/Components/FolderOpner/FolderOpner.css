@@ -1,0 +1,33 @@
+.folder-continer{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #44433f;
+    display: flex;
+    flex-direction: column;
+}
+.folder-img{
+    height: 7vh;
+}
+.folder-title{
+    height: 7vh;
+    width: 100vw;
+    color: white;
+    margin-top: 10vh;
+}  
+.project-continer{
+    
+    width: 100vw;
+    display: flex;
+    gap: 20px;
+    
+}
+.folder-info{
+    padding: 10px;
+}
+.project-name{
+    color: white;
+    font-size: 0.8em;
+}
