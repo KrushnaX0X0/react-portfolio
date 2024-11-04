@@ -4,10 +4,8 @@ const Mycontext = createContext()
 
 const MyContextProvider =({children}) =>{
 
-  // const [isfileOpen,setFileOpen] = useState(false);
-   // useEffect(()=>{
-   //  localStorage.setItem('isfileopen',isfileOpen)
-    //},[isfileOpen])
+   const [isfileOpen,setFileOpen] = useState(false);
+   
 
 
 
@@ -53,7 +51,10 @@ const MyContextProvider =({children}) =>{
   
 
      return(
-         <Mycontext.Provider value={{time,dayInfo}}>
+         <Mycontext.Provider value={{time,
+          dayInfo,
+           isfileOpen,
+          setFileOpen}}>
              {children}
          </Mycontext.Provider>
      )
