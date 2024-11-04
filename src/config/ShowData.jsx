@@ -1,3 +1,5 @@
+import POJECT1 from "../assets/project1.jpg"
+
 const FILES_DATA = [
     {
        type: 'file',
@@ -6,7 +8,7 @@ const FILES_DATA = [
  
           {
              title: "My Story",
-             discription: 'Hii 👋 , My name is sarthak Navale . I m fullStack webdeveloper from India . I enjoy learning new skills and keeping up with the latest trends in technology to deliver great projects.',
+             discription: 'Hii 👋 , My name is krushna jagtap. I m fullStack webdeveloper from India . I enjoy learning new skills and keeping up with the latest trends in technology to deliver great projects.',
              Image: false
           },
           {
@@ -17,7 +19,7 @@ const FILES_DATA = [
           {
              title: 'My Projects',
              discription: 'In my journey i learn lot of things. I create lot of project there i share some between them.',
-             Image: ""
+             Image: [POJECT1]
           }
  
        ]
