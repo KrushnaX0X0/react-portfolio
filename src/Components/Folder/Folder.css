@@ -19,19 +19,20 @@
 }
     */
     .folder-i {
+        height: 5vh;
     width: 5vw;
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Center items horizontally */
-     /* Center items vertically */
+    align-items: center; 
+    
     
     padding: 10px;
  
 }
 
 .folder-img {
-    height: 8vh;
-    width: 4vw;
+    height: 100%;
+    width: 100%;
     cursor: pointer;
     transition: transform 0.2s, opacity 0.2s;
 }
@@ -49,4 +50,11 @@
     font-size: 1rem; 
     text-align: center; 
 
+}
+
+@media screen and (max-width:500px) {
+    .folder-i{
+        height: 11vh;
+        width: 20vw;
+    }
 }
