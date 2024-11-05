@@ -13,7 +13,7 @@ function Folder({fileInfo}) {
         <img src={folder} alt="" className='folder-img' onClick={()=>{setFolderOpen(true)}}/>
         <span className="folder-ti">{fileInfo.name}</span>
     </div>
-    {isFolderOpen ? <FolderOpener data={fileInfo}/> : null}
+    {isFolderOpen ? <FolderOpener data={fileInfo}/> : null }
 
     </>
   )
