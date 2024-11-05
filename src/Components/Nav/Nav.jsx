@@ -9,7 +9,7 @@ const Nav = () => {
     return (
         <div>
             <div className='nav-main'>
-                <div className='time '>{time}</div>
+                <div className='time-n '>{time}</div>
                 <div className='icon-pow'>
                     <i className="ri-notification-line hover padd "></i>
                     <i className="ri-shut-down-line hover" ></i>
