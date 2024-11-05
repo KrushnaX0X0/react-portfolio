@@ -30,9 +30,6 @@
     color:white;
     border: 2px solid white;
     border-radius: 10px;
-    
-    
-
 }
 .title-continer::-webkit-scrollbar{
     display: none;
